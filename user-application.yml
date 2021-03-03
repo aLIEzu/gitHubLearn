@@ -24,8 +24,7 @@ hystrix:
         default:
           execution:
             isolation:
-              strategy:
-                SEMAPHORE
+              strategy: SEMAPHORE
               thread:
                 timeoutInMilliseconds: 9000 #设置超时时长
           circuitBreaker:

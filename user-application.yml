@@ -32,9 +32,9 @@ spring:
 #  threadpool:
 #    default:
 #      coreSize: 10
-feign:
-  hystrix:
-    enabled: true #开启feign当中的hystrix
+#feign:
+  #hystrix:
+    #enabled: true #开启feign当中的hystrix
 ribbon:
   ReadTimeout: 10000 #要大于hystrix中的超时时间，hystrix中的超时时间才会生效
   ConnectTimeout: 10000
